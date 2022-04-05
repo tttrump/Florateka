@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Florateka_diplom</string>
+    <string name="Home">Item1</string>
+    <string name="Favorite">Item2</string>
+    <string name="Message">Item3</string>
+    <string name="Profile">Item4</string>
+</resources>

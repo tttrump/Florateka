@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.florateka_diplom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Florateka"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Florateka_diplom">
+        <activity android:name=".Activity_profile"></activity>
+        <activity android:name=".Activity_message" />
+        <activity android:name=".Activity_favorite" />
+        <activity android:name=".Activity_home" />
+        <activity android:name=".MainPaig" />
+        <activity android:name=".EnterPage" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
